@@ -1,0 +1,20 @@
+        /*关键字*/
+        *{
+            font-size: 15px;
+        }
+        .keyword {
+            color: #7f0055;
+            font-weight: bold;
+        }
+        /*行缩进*/
+        .placeholder {
+            margin-left: 15px;
+        }
+        /*空格*/
+        .apace {
+            margin-left: 7px;
+        }
+        /*注释*/
+        .comments {
+            color: #3f7f5f;
+        }

@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+.content {
+    background-color: #ffe; 
+    height: 100vh; /* view height */
+    display: flex;
+}
+.wrapper-left {
+    /* background-color: rgb(255,200, 0); */
+    width: 440px;
+    padding-top: 112px;
+    padding-left: 85px;
+    box-sizing: border-box;
+}
+.wrapper-right {
+    /* background-color: cyan; */
+    flex: 1; /* 填满剩下区域 */
+    display: flex; /*弹性布局 */
+    justify-content: center; /*弹性布局中，主轴居中 */
+    align-items: center; /*垂直于主轴方向局中*/
+    position: relative;
+}

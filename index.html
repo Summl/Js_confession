@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>yyqx</title>
+        <meta charset="utf-8" />
+        <style>
+        .heart {
+            width: 300px;
+            height: 300px;
+            /* background-color: red; */
+        }
+
+        </style>
+        <link rel="stylesheet" type="text/CSS" href="./CSS/index.CSS"/>
+        <link rel="stylesheet" type="text/CSS" href="./CSS/wrapper-left.CSS"/>
+        <link rel="stylesheet" type="text/CSS" href="./CSS/wrapper-right.CSS"/>
+        <script src="./js/jquery.js"></script>
+        
+    </head>
+    <body>
+        <div class="content">
+            <div class="wrapper-left">
+                <span class="comments">/**</span><br />
+                <span class="space"><span class="comments">* 如果说想要对你说些什么</span><br/>
+                <span class="space"><span class="comments">* /</span><br/>
+                <span class="keyword">var</span> str = "噜啦噜啦噜啦要开心，要幸福，要好好爱自己。还有好多好多祝福呢，我会好好努力，希望未来有幸与你相遇。".<span class="keyword">substr</span>(6,15);<br />
+                <span class="keyword">console.log</span>(str); <span class="comments">//这里就是我想对你说的话......</span><br />
+                <span class="comments">//如果下面为真，我们就有机会相遇</span><br/>
+                <span class="keyword">if</span>(1===1) {<br />
+                <span class="placeholder" >str = "易烊千玺，你好呀！"<br />
+                }<br/>
+            </div>
+            <!-- <audio src="./易烊千玺 - 精彩才刚刚开始.mp3" controls autoplay="autoplay"></audio> -->
+            <div class="wrapper-right">
+                <canvas id="heart"></canvas>
+                <div id="words">
+                    <div id="message"></div>
+                    <div id="time-elpase" ></div>
+                    <div></div>
+                </div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>
+<script src="./js/typewriter.js"></script>
+<script src="./js/heart.js"></script>
+<script src="./js/timeElapse.js"></script>
+<script>
+    setTimeout(function(){
+        renderHeart();
+    },4000);
+</script>

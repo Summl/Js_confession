@@ -1,0 +1,24 @@
+#words {
+    position: absolute;
+    left: 52%;
+    top: 45%;
+    /* width: 40px; */
+    transform: translate(-50%,-50%);  /* 自己相对自身移动 */
+}
+.topWord {
+    font-size: 20px;
+    color: rgb(255, 0, 0);
+}
+#time-elpase {
+    display:none ;
+    font-size: 18px;
+}
+.time {
+    font-size: 21px;
+    color: green;
+    
+}
+.buttom {
+    text-align: right;
+    font-size: 20px;
+}
